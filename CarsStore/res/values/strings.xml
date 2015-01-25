@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Cars Store</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Welcome To Cars Store</string>
+    <string name="choose">Select Your Car : </string>
+    
+    <string name="company">About Company</string>
+    <string name="service">Center Services</string>
+    <string name="price">About Price</string>
+    <string name="out">Click to Exit The Application</string>
+    <string name="img">Click To Show Pictures</string>
+    <string name="visit">Visit Company Site</string>
+     
+    
+</resources>

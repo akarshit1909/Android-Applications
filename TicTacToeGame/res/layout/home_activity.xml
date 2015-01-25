@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/ic_home"
+    android:orientation="vertical" >
+   <Button
+        android:id="@+id/button1"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentTop="true" 
+        android:background="@drawable/ic_play" />
+
+   <Button
+        android:id="@+id/button2"
+        android:layout_width="120dp"
+        android:layout_height="120dp" 
+        android:layout_alignBottom="@+id/button4"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/ic_exit" />
+   
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/ic_soundon" />
+
+    
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentBottom="true" 
+        android:background="@drawable/ic_soundoff" />
+
+</RelativeLayout>
